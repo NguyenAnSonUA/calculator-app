@@ -1,0 +1,38 @@
+/* Default styles for all screen sizes */
+button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 60px;
+    outline: none;
+    padding: 20px 30px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.equals {
+    grid-column: 3 / 5;
+}
+
+.operation,
+.equals {
+    background-color: rgb(253, 152, 61);
+}
+
+.operation:hover,
+.equals:hover {
+    background-color: rgb(253, 142, 48);
+}
+
+.otherButtons {
+    background-color: rgb(153, 153, 153);
+}
+
+.otherButtons:hover {
+    background-color: rgb(130, 130, 130);
+}
